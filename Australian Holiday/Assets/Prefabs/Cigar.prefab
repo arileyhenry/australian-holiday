@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1924200292220726671}
   - component: {fileID: 1924200292220726668}
   - component: {fileID: 1924200292220726669}
-  - component: {fileID: 1924200292220726675}
+  - component: {fileID: 8208728791250036256}
   m_Layer: 0
   m_Name: Cigar
   m_TagString: Untagged
@@ -131,7 +131,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1924200292220726675
+--- !u!114 &8208728791250036256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924200292220726664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 613a8169db104e84e99b03005be36e61, type: 3}
+  m_Script: {fileID: 11500000, guid: 70d8064014ab31143ba7d22b3287ce10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  spawnPoints:
+  - {fileID: 0}
+  cig: {fileID: 1924200292220726664}
+  spawnTime: 5
+  spawnDelay: 3
